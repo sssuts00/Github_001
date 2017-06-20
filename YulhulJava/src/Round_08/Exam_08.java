@@ -17,8 +17,8 @@ public class Exam_08 {
 		
 		for(int i=0; i<inwon; ++i){
 			System.out.println(i + 1 +"번째사람이름 = ");
-		}
-
-	}
+		} 
+ 
+	} 
 
 }
