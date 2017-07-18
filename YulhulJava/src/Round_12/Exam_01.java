@@ -26,7 +26,11 @@ class Outer{
 
 public class Exam_01 {
 	public static void main(String[] args) {
+		Outer ot = new Outer();
+		Outer.Inner oi = ot.new Inner();
+		oi.disp_in();
 		
+		Outer.Inner.Outer_Inner oio = oi.new Outer_Inner();
 		
 	}
 }
